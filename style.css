@@ -1,0 +1,60 @@
+body{
+    background: linear-gradient(to right, #ffb347, #ffcc33); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    
+}
+
+
+header{
+    display: block;
+    text-align: center;
+    font-family: "Lato", sans;
+    font-size: 3em;
+    font-weight: 500;
+    margin-top: 5%;
+
+
+}
+.contain{
+    display: flex;
+    flex-direction: column;
+    justify-content: center; 
+    align-items: center;
+}
+
+#price{
+    display: flex;
+    align-items: center;
+    font-size: 2em;
+    height: 200px;
+    font-family: "Saira Semi Condensed", sans-serif;
+
+}
+
+.rp{
+    transition: opacity 0.5s ease-in-out;
+}
+button{
+    outline: none;
+    border: none;
+    color: white;
+    background-color: crimson;
+    font-size: 16px;
+    padding: 12px 35px;
+    letter-spacing: 2px;
+    cursor: pointer;
+    border-radius: 25px;
+    box-shadow: 0 6px #bd1434;
+}
+button:hover{
+    box-shadow: 0 4px #bd1434;
+    transform: translateY(2px);
+}
+
+button:active{
+    box-shadow: none;
+    transform: translateY(6px);
+}
+
+.sym{
+    color: #de1569
+}
